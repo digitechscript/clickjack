@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 from sys import argv,exit
 
-__author__="Cyber Asset - Abhinav Porwal"
+__author__="Digitech Script"
 
 def checking(url):
     "to check if url is vulnerable or not"
@@ -21,7 +21,7 @@ def proof(url):
     payload="""
     <html>
       <head>
-        <title>Click Jacking Test Page</title>
+        <title>Click Jacking Test POC</title>
       </head>
       <body>
         <p>Website is Vulerable to clickjacking...</p>
